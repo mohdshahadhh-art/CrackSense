@@ -1,0 +1,11 @@
+path: C:/CrackSense/data/RDD_SPLIT/test
+train: images
+val: images
+
+nc: 5
+names:
+  0: longitudinal_crack
+  1: transverse_crack
+  2: alligator_crack
+  3: pothole
+  4: other_damage
