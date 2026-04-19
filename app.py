@@ -15,7 +15,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return YOLO("C:/CrackSense/runs/cracksense_v1/weights/best.pt")
+    return YOLO("runs/cracksense_v1/weights/best.pt")
 
 model = load_model()
 
